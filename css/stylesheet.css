@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'fippsregular';
+    src: url('https://bulutcorbaci.github.io/css/fonts/fipps-regular-webfont.eot');
+    src: url('https://bulutcorbaci.github.io/css/fonts/fipps-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('https://bulutcorbaci.github.io/css/fonts/fipps-regular-webfont.woff2') format('woff2'),
+         url('https://bulutcorbaci.github.io/css/fonts/fipps-regular-webfont.woff') format('woff'),
+         url('https://bulutcorbaci.github.io/css/fonts/fipps-regular-webfont.ttf') format('truetype'),
+         url('https://bulutcorbaci.github.io/css/fonts/fipps-regular-webfont.otf') format('opentype'),
+         url('https://bulutcorbaci.github.io/css/fonts/fipps-regular-webfont.svg#fippsregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
