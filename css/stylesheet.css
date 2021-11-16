@@ -11,3 +11,15 @@
     font-style: normal;
 
 }
+@font-face {
+    font-family: 'oxygenregular';
+    src: url('https://bulutcorbaci.github.io/css/fonts/oxygen-regular-webfont.eot');
+    src: url('https://bulutcorbaci.github.io/css/fonts/oxygen-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('https://bulutcorbaci.github.io/css/fonts/oxygen-regular-webfont.woff2') format('woff2'),
+         url('https://bulutcorbaci.github.io/css/fonts/oxygen-regular-webfont.woff') format('woff'),
+         url('https://bulutcorbaci.github.io/css/fonts/oxygen-regular-webfont.ttf') format('truetype'),
+         url('https://bulutcorbaci.github.io/css/fonts/oxygen-regular-webfont.svg#oxygenregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
