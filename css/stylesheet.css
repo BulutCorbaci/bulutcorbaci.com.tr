@@ -1,36 +1,36 @@
 @font-face {
     font-family: 'fippsregular';
-    src: url('https://bulutcorbaci.github.io/css/fonts/fipps-regular-webfont.eot');
-    src: url('https://bulutcorbaci.github.io/css/fonts/fipps-regular-webfont.eot?#iefix') format('embedded-opentype'),
-         url('https://bulutcorbaci.github.io/css/fonts/fipps-regular-webfont.woff2') format('woff2'),
-         url('https://bulutcorbaci.github.io/css/fonts/fipps-regular-webfont.woff') format('woff'),
-         url('https://bulutcorbaci.github.io/css/fonts/fipps-regular-webfont.ttf') format('truetype'),
-         url('https://bulutcorbaci.github.io/css/fonts/fipps-regular-webfont.otf') format('opentype'),
-         url('https://bulutcorbaci.github.io/css/fonts/fipps-regular-webfont.svg#fippsregular') format('svg');
+    src: url('https://bulutcorbaci.com.tr/css/fonts/fipps-regular-webfont.eot');
+    src: url('https://bulutcorbaci.com.tr/css/fonts/fipps-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('https://bulutcorbaci.com.tr/css/fonts/fipps-regular-webfont.woff2') format('woff2'),
+         url('https://bulutcorbaci.com.tr/css/fonts/fipps-regular-webfont.woff') format('woff'),
+         url('https://bulutcorbaci.com.tr/css/fonts/fipps-regular-webfont.ttf') format('truetype'),
+         url('https://bulutcorbaci.com.tr/css/fonts/fipps-regular-webfont.otf') format('opentype'),
+         url('https://bulutcorbaci.com.tr/css/fonts/fipps-regular-webfont.svg#fippsregular') format('svg');
     font-weight: normal;
     font-style: normal;
 
 }
 @font-face {
     font-family: 'oxygenregular';
-    src: url('https://bulutcorbaci.github.io/css/fonts/oxygen-regular-webfont.eot');
-    src: url('https://bulutcorbaci.github.io/css/fonts/oxygen-regular-webfont.eot?#iefix') format('embedded-opentype'),
-         url('https://bulutcorbaci.github.io/css/fonts/oxygen-regular-webfont.woff2') format('woff2'),
-         url('https://bulutcorbaci.github.io/css/fonts/oxygen-regular-webfont.woff') format('woff'),
-         url('https://bulutcorbaci.github.io/css/fonts/oxygen-regular-webfont.ttf') format('truetype'),
-         url('https://bulutcorbaci.github.io/css/fonts/oxygen-regular-webfont.svg#oxygenregular') format('svg');
+    src: url('https://bulutcorbaci.com.tr/css/fonts/oxygen-regular-webfont.eot');
+    src: url('https://bulutcorbaci.com.tr/css/fonts/oxygen-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('https://bulutcorbaci.com.tr/css/fonts/oxygen-regular-webfont.woff2') format('woff2'),
+         url('https://bulutcorbaci.com.tr/css/fonts/oxygen-regular-webfont.woff') format('woff'),
+         url('https://bulutcorbaci.com.tr/css/fonts/oxygen-regular-webfont.ttf') format('truetype'),
+         url('https://bulutcorbaci.com.tr/css/fonts/oxygen-regular-webfont.svg#oxygenregular') format('svg');
     font-weight: normal;
     font-style: normal;
 
 }
 @font-face {
     font-family: 'retro_computerregular';
-    src: url('https://bulutcorbaci.github.io/css/fonts/retro_computer_personal_use-webfont.eot');
-    src: url('https://bulutcorbaci.github.io/css/fonts/retro_computer_personal_use-webfont.eot?#iefix') format('embedded-opentype'),
-         url('https://bulutcorbaci.github.io/css/fonts/retro_computer_personal_use-webfont.woff2') format('woff2'),
-         url('https://bulutcorbaci.github.io/css/fonts/retro_computer_personal_use-webfont.woff') format('woff'),
-         url('https://bulutcorbaci.github.io/css/fonts/retro_computer_personal_use-webfont.ttf') format('truetype'),
-         url('https://bulutcorbaci.github.io/css/fonts/retro_computer_personal_use-webfont.svg#retro_computerregular') format('svg');
+    src: url('https://bulutcorbaci.com.tr/css/fonts/retro_computer_personal_use-webfont.eot');
+    src: url('https://bulutcorbaci.com.tr/css/fonts/retro_computer_personal_use-webfont.eot?#iefix') format('embedded-opentype'),
+         url('https://bulutcorbaci.com.tr/css/fonts/retro_computer_personal_use-webfont.woff2') format('woff2'),
+         url('https://bulutcorbaci.com.tr/css/fonts/retro_computer_personal_use-webfont.woff') format('woff'),
+         url('https://bulutcorbaci.com.tr/css/fonts/retro_computer_personal_use-webfont.ttf') format('truetype'),
+         url('https://bulutcorbaci.com.tr/css/fonts/retro_computer_personal_use-webfont.svg#retro_computerregular') format('svg');
     font-weight: normal;
     font-style: normal;
 
