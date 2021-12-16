@@ -32,3 +32,10 @@
 .form__input-group {
     max-width: %75;
 }
+
+.form__link {
+    text-decoration: none;
+}
+.form__link:hover {
+    text-decoration: underline;
+}
