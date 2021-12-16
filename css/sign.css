@@ -1,0 +1,10 @@
+﻿.form__input {
+    display: block;
+    padding: 0.75rem;
+    background: #e1e1e1;
+    outline: none;
+}
+
+.form__input:focus {
+    background: #ffffff;
+}
