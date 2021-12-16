@@ -35,7 +35,7 @@ document.addEventListener("DOMContentLoaded", () => {
     document.querySelectorAll(".form__input").forEach(inputElement => {
         inputElement.addEventListener("blur", e => {
             if (e.target.id === "signupUsername" && e.target.value.lenght > 0 && e.target.value.lenght < 10) {
-
+                setInputError(inputElement, "Username Must Be at Least 10 Characters.");
             }
         });
     });
