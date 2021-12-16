@@ -16,8 +16,10 @@
     width: %100;
     padding: 1rem 2rem;
     font-size: 1.2rem;
+    font: oxygenregular;
+    border: 0px;
 }
 
 .form__input-group {
-    max-width: 350px;
+    max-width: %75;
 }
