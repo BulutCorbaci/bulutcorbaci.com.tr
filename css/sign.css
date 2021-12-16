@@ -43,3 +43,19 @@
 .form__link:hover {
     text-decoration: underline;
 }
+
+form__input--error {
+    color: #ff3e00;
+}
+form__input-error-message {
+    color: #ff3e00;
+    margin-top: 0.5rem;
+    font-size: 0.85rem;
+}
+
+form__message--error {
+    color: #ff3e00;
+}
+form__message--success {
+    color: #25bd00;
+}
