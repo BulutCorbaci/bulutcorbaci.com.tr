@@ -25,6 +25,9 @@
 .form__button:hover {
     background: #f1f1f1;
 }
+.form__button:active {
+    transform: scale(0.95);
+}
 
 .form__input-group {
     max-width: %75;
