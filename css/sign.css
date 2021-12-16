@@ -5,8 +5,19 @@
     outline: none;
     transition: background 0.2s, border_color 0.2s;
     border: 1px solid #808080;
+    font-size: 1.4rem;
 }
 
 .form__input:focus {
     background: #ffffff;
+}
+
+.form__button {
+    width: %100;
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+}
+
+.form__input-group {
+    max-width: 350px;
 }
