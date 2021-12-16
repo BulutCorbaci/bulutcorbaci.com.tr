@@ -15,12 +15,12 @@ document.addEventListener("DOMContentLoaded", () => {
     const loginForm = document.querySelector("#signin");
     const joinForm = document.querySelector("#join");
 
-    document.querySelector.("linkCreateAccount").addEventListener("click", e => {
+    document.querySelector.("#linkCreateAccount").addEventListener("click", e => {
         e.preventDefault();
         loginForm.classList.add("form__hidden");
         joinForm.classList.remove("form__hidden");
     });
-    document.querySelector.("linkLogin").addEventListener("click", e => {
+    document.querySelector.("#linkLogin").addEventListener("click", e => {
         e.preventDefault();
         loginForm.classList.remove("form__hidden");
         joinForm.classList.add("form__hidden");
@@ -34,7 +34,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     document.querySelectorAll(".form__input").forEach(inputElement => {
         inputElement.addEventListener("blur", e => {
-            if (e.target.id === "signupUsername" && e.target.value.lenght > 0 && e.target.value.lenght < 10) {
+            if (e.target.id === "signupUsername" && e.target.value.lenght > 0 && e.target.value.lenght < 3) {
                 setInputError(inputElement, "Username Must Be at Least 10 Characters.");
             }
         });
