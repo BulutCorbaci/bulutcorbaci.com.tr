@@ -38,9 +38,10 @@
         <div style="background-color: #696969; color: white; padding: 20px;">
             <form class="form" id="signin">
                 <h1 class="form_title" style="margin: auto; text-align: center; font-family: oxygenregular;">Sign In</h1>
-                <div style="background-color: #da0000; margin: auto; text-align: center; font-family: oxygenregular;" class="form__message form__message_error"></div>
+                <div style="background-color: #da0000; margin: auto; text-align: center; font-family: oxygenregular;" class="form__message form__message--error"></div>
                 <div style="background-color: #7c7c7c; margin: auto; text-align: center; font-family: oxygenregular;" class="form__input_group">
                     <input size="45" style="margin: auto; text-align: center; font-family: oxygenregular;" type="text" class="form__input" autofocus placeholder="Username/EMail" />
+                    <div class="form__message-error-message"></div>    
                 </div>
                 <div style="background-color: #7c7c7c; margin: auto; text-align: center; font-family: oxygenregular;" class="form__input_group">
                     <input size="45" style="margin: auto; text-align: center; font-family: oxygenregular;" type="password" class="form__input" autofocus placeholder="Password" />
@@ -51,13 +52,15 @@
                     <a href="#" class="form__link" id="linkForgotPassword">Forgot Your Password?</a>
                 </p>
                 <p class="form__text" style="margin: auto; text-align: center; font-family: oxygenregular;">
-                    <a class="form__link" id="linkCreateAccount">Don't Have an Account? Create Now!</a>
+                    <a href="" class="form__link" id="linkCreateAccount">Don't Have an Account? Create Now!</a>
                 </p>
             </form>
             <form class="form form--hidden" id="createaccount">
                 <h1 class="form_title" style="margin: auto; text-align: center; font-family: oxygenregular;">Create Account</h1>
+                <div style="background-color: #da0000; margin: auto; text-align: center; font-family: oxygenregular;" class="form__message form__message--error"></div>
                 <div style="background-color: #7c7c7c; margin: auto; text-align: center; font-family: oxygenregular;" class="form__input_group">
                     <input size="45" style="margin: auto; text-align: center; font-family: oxygenregular;" type="text" class="form__input" id="signupUsername" autofocus placeholder="Username" />
+                    <div class="form__message-error-message"></div>
                     <input size="45" style="margin: auto; text-align: center; font-family: oxygenregular;" type="text" class="form__input" autofocus placeholder="Email" />
                     <input size="45" style="margin: auto; text-align: center; font-family: oxygenregular;" type="text" class="form__input" autofocus placeholder="Confirm Email" />
                 </div>
@@ -70,7 +73,7 @@
                 <p class="form__text" style="margin: auto; text-align: center; font-family: oxygenregular;">
                 </p>
                 <p class="form__text" style="margin: auto; text-align: center; font-family: oxygenregular;">
-                    <a class="form__link" id="linkLogin">Already Have an Account? Login!</a>
+                    <a href="" class="form__link" id="linkLogin">Already Have an Account? Login!</a>
                 </p>
             </form>
             <p>&nbsp;</p>
