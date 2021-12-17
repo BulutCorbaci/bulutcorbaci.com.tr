@@ -17,7 +17,8 @@
 }
 
 .form__button {
-    width: %100;
+    width: 500px;
+    height: 50px;
     padding: 1rem 2rem;
     font-size: 1.2rem;
     font: oxygenregular;
@@ -34,7 +35,8 @@
 }
 
 .form__input-group {
-    max-width: %75;
+    max-width: 75px;
+    max-height: 35px;
 }
 
 .form__link {
