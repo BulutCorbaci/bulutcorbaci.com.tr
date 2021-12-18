@@ -1,0 +1,85 @@
+﻿<!DOCTYPE html>
+<head>
+    <title>Sign In</title>
+    <link rel="stylesheet"
+          href="https://bulutcorbaci.com.tr/css/stylesheet.css">
+    <link rel="stylesheet"
+          href="./css/sign.css">
+    <style>
+        h1 {
+            font-family: "fippsregular";
+        }
+
+        a:link {
+            color: #b7b7b7;
+            background-color: transparent;
+        }
+
+        a:visited {
+            color: #ffffff;
+            background-color: transparent;
+        }
+
+        a:hover {
+            color: #ff0000;
+            background-color: transparent;
+        }
+
+        a:active {
+            color: #ff9f00;
+            background-color: transparent;
+        }
+    </style>
+    <link rel='shortcut icon' type='image/x-icon' href='https://bulutcorbaci.com.tr/favicon.ico' />
+</head>
+<body style="background-color:#060606;">
+    <div style="background-color: #181818; color: white; padding: 10px;">
+        <h1 style="margin: auto; text-align: center; font-family: fippsregular;"><a href="https://bit.ly/33nhosQ" style="text-decoration: none;">Bulut Corbaci</a>&nbsp;</h1>
+        <div style="background-color: #696969; color: white; padding: 20px;">
+            <form class="form" id="signin">
+                <h1 class="form_title" style="margin: auto; text-align: center; font-family: oxygenregular;">Sign In</h1>
+                <div style="background-color: #da0000; margin: auto; text-align: center; font-family: oxygenregular;" class="form__message form__message--error"></div>
+                <div style="background-color: #7c7c7c; margin: auto; text-align: center; font-family: oxygenregular;" class="form__input_group">
+                    <input size="45" style="margin: auto; text-align: center; font-family: oxygenregular;" type="text" class="form__input" autofocus placeholder="Username/EMail" />
+                    <div class="form__message-error-message"></div>    
+                </div>
+                <div style="background-color: #7c7c7c; margin: auto; text-align: center; font-family: oxygenregular;" class="form__input_group">
+                    <input size="45" style="margin: auto; text-align: center; font-family: oxygenregular;" type="password" class="form__input" autofocus placeholder="Password" />
+                    <p></p>
+                    <button style="margin: auto; text-align: center; font-family: oxygenregular;" class="form__button" type="submit">Sign In Now!</button>
+                </div>
+                <p class="form__text" style="margin: auto; text-align: center; font-family: oxygenregular;">
+                    <a href="#" class="form__link" id="linkForgotPassword">Forgot Your Password?</a>
+                </p>
+                <p class="form__text" style="margin: auto; text-align: center; font-family: oxygenregular;">
+                    <a href="" class="form__link" id="linkCreateAccount">Don't Have an Account? Create Now!</a>
+                </p>
+            </form>
+            <form class="form form--hidden" id="createaccount">
+                <h1 class="form_title" style="margin: auto; text-align: center; font-family: oxygenregular;">Create Account</h1>
+                <div style="background-color: #da0000; margin: auto; text-align: center; font-family: oxygenregular;" class="form__message form__message--error"></div>
+                <div style="background-color: #7c7c7c; margin: auto; text-align: center; font-family: oxygenregular;" class="form__input_group">
+                    <input size="45" style="margin: auto; text-align: center; font-family: oxygenregular;" type="text" class="form__input" id="signupUsername" autofocus placeholder="Username" />
+                    <div class="form__message-error-message"></div>
+                    <input size="45" style="margin: auto; text-align: center; font-family: oxygenregular;" type="text" class="form__input" autofocus placeholder="Email" />
+                    <input size="45" style="margin: auto; text-align: center; font-family: oxygenregular;" type="text" class="form__input" autofocus placeholder="Confirm Email" />
+                </div>
+                <div style="background-color: #7c7c7c; margin: auto; text-align: center; font-family: oxygenregular;" class="form__input_group">
+                    <input size="45" style="margin: auto; text-align: center; font-family: oxygenregular;" type="password" class="form__input" id="signupPass" autofocus placeholder="Password" />
+                    <input size="45" style="margin: auto; text-align: center; font-family: oxygenregular;" type="password" class="form__input" id="signupPassRe" autofocus placeholder="Confirm Password" />
+                    <p></p>
+                    <button style="margin: auto; text-align: center; font-family: oxygenregular;" class="form__button" type="submit">Sign Up Now!</button>
+                </div>
+                <p class="form__text" style="margin: auto; text-align: center; font-family: oxygenregular;">
+                </p>
+                <p class="form__text" style="margin: auto; text-align: center; font-family: oxygenregular;">
+                    <a href="" class="form__link" id="linkLogin">Already Have an Account? Login!</a>
+                </p>
+            </form>
+            <p>&nbsp;</p>
+        </div>
+        <p style="margin: auto; text-align: center; color: #494949; font-family: oxygenregular;">BulutCorbaci©</p>
+        <p style="margin: auto; text-align: center; font-family: oxygenregular;"><a href="https://steamcommunity.com/id/BitterTheChicken" style="text-decoration: none;"> <img src="https://img.shields.io/badge/-Account-black?style=flat-square&amp;logo=steam" alt="Steam" width="60" height="17.5" /></a><a href="https://www.curseforge.com/members/bulutcorbaci/projects" style="text-decoration: none;"><img src="https://img.shields.io/badge/-Account-orange?style=flat-square&amp;logo=curseforge" alt="Curseforge" width="60" height="17.5" /></a><a href="https://github.com/BulutCorbaci" style="text-decoration: none;"><img src="https://img.shields.io/badge/-Account-gray?style=flat-square&logo=github" alt="Curseforge" width="60" height="17.5" /></a></p>
+        <script src="https://bulutcorbaci.com.tr/src/sign.js"></script>
+    </div>
+</body>

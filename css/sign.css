@@ -1,0 +1,63 @@
+﻿.form__input {
+    display: block;
+    padding: 0.75rem;
+    background: #e1e1e1;
+    outline: none;
+    transition: background 0.2s, border_color 0.2s;
+    border: 1px solid #808080;
+    font-size: 1.4rem;
+}
+
+.form--hidden {
+    display: none;
+}
+
+.form__input:focus {
+    background: #ffffff;
+}
+
+.form__button {
+    width: 500px;
+    height: 50px;
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+    font: oxygenregular;
+    outline: none;
+    cursor: pointer;
+    border: none;
+    background: #ededed;
+}
+.form__button:hover {
+    background: #f1f1f1;
+}
+.form__button:active {
+    transform: scale(0.95);
+}
+
+.form__input-group {
+    max-width: 75px;
+    max-height: 35px;
+}
+
+.form__link {
+    text-decoration: none;
+}
+.form__link:hover {
+    text-decoration: underline;
+}
+
+form__input--error {
+    color: #ff3e00;
+}
+form__input-error-message {
+    color: #ff3e00;
+    margin-top: 0.5rem;
+    font-size: 0.85rem;
+}
+
+form__message--error {
+    color: #ff3e00;
+}
+form__message--success {
+    color: #25bd00;
+}
