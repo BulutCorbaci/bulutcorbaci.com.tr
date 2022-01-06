@@ -37,8 +37,8 @@
 }
 
 .img-responsive {
-    border-radius: 2%;
-    max-width: 100%;
+    
+    max-width: 80%;
     margin-bottom: 5px;
 }
 .iframe-container {
