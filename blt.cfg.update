@@ -1,0 +1,15 @@
+releases{
+1.0
+1.0.1
+}
+
+release:1.0{
+
+}
+
+release:1.0.1{
+DownloadFile:BLT.CFG.exe
+DownloadFile:BLT.CFG.dll
+DeleteFile:TF2ConfigGenerator.dll
+DownloadFile:Colorful.Console.dll
+}
